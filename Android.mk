@@ -6,4 +6,16 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),d2s)
 
+$(call add-radio-file-sha1-checked,radio/cm.bin_SM-N975F,33f32224d3ca65efa791244ed5aa51750920890a)
+$(call add-radio-file-sha1-checked,radio/dqmdbg.img_SM-N975F,f88cbee984e3b68df6f4b62e7e4de82f5258c03b)
+$(call add-radio-file-sha1-checked,radio/keystorage.bin_SM-N975F,71ebbaf02970da8118051cedc3c08ec9c7ff1a59)
+$(call add-radio-file-sha1-checked,radio/models,fc8476420f74007524741b5a3309764ca75b699e)
+$(call add-radio-file-sha1-checked,radio/modem.bin_SM-N975F,8ce20763694d9d7f3699f0996dbc10db06b7fc9e)
+$(call add-radio-file-sha1-checked,radio/modem_debug.bin_SM-N975F,b23a17f1f1a21b7f2af7422b81da715c0689674f)
+$(call add-radio-file-sha1-checked,radio/param.bin_SM-N975F,42cefcaa2ea5ca652378a4b166b92351d0560517)
+$(call add-radio-file-sha1-checked,radio/sboot.bin_SM-N975F,606573de508c8438abd899ed17b35a1ff3a21a65)
+$(call add-radio-file-sha1-checked,radio/uh.bin_SM-N975F,5ffa1062bb6d473182c15f1e91fa88bd8c9d9e6b)
+$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-N975F,942643208401ec8584129c5345aba3a27bcdfb4d)
+$(call add-radio-file-sha1-checked,radio/version_SM-N975F,642cd12979e1283c3506e1828b83fe24560a80bc)
+
 endif
